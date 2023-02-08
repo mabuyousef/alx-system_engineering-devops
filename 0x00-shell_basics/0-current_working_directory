@@ -1,2 +1,2 @@
 #!/bin/bash
-cwd=$(pwd)
+cwd=$(cd "$(dirname "$0")"; pwd -P)
