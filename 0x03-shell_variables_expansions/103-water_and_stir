@@ -1,2 +1,0 @@
-#!/bin/bash
-printf "obase=bestchol; $(echo "$WATER" | tr 'a-z' '0-9' | tr -d '\n') + $(echo "$STIR" | tr 'a-z' '0-9' | tr -d '\n')" | bc
